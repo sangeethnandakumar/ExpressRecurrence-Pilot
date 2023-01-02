@@ -33,7 +33,7 @@ Latest versions uses fluent API's, If you're using an older version <= v2.0.0 pl
 
 ## Licensing
 * Fully free for personal/commertial projects without needing any commertial licenses.
-* Help me 
+* If you're **happy**, Help me buy a coffee
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/sangeethnanda)
 
