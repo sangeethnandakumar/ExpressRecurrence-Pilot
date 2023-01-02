@@ -2,11 +2,13 @@ name: "Deploy to NuGet"
 
 on:
   push:
+    branches:
+    - main
     tags:
     - 'v*'
 
 env:
-  PROJECT_PATH: 'Express.Recurrence\Express.Recurrence.csproj'
+  PROJECT_PATH: 'Express.Recurrence/Express.Recurrence.csproj'
   PACKAGE_OUTPUT_DIRECTORY: ${{ github.workspace }}\output
   NUGET_SOURCE_URL: 'https://api.nuget.org/v3/index.json'
 
