@@ -3,11 +3,29 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>disable</Nullable>
+    <PackageId>Twileloop.ExpressRecurrence</PackageId>
+    <Title>Express Recurrence</Title>
+    <Version>3.0.0</Version>
+    <Authors>Twileloop Developers (Sangeeth Nandakumar)</Authors>
+    <Company>Twileloop Developers</Company>
+    <Description>Express Reccurance allows you to generate reccursive dates in C# much easily</Description>
+    <PackageProjectUrl>https://github.com/sangeethnandakumar/Express-Reccurence</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/sangeethnandakumar/Express-Reccurence</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>date, pattern, cron, list of dates</PackageTags>
+    <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Builder\" />
     <Folder Include="Lib\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Sangeeth Nandakumar\OneDrive\Desktop\logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
