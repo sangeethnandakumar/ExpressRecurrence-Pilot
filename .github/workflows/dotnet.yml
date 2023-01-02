@@ -29,4 +29,4 @@ jobs:
     - name: Build Package
       run: dotnet pack -c Release -o out
     - name: Publish Package to NuGet.org
-      run: dotnet nuget push *.nupkg -k ${{ secrets.NUGET_ORG_API_KEY }} -s https://api.nuget.org/v3/index.json
+      run: dotnet nuget push /home/runner/work/ExpressRecurrence-Pilot/ExpressRecurrence-Pilot/out/*.nupkg -k ${{ secrets.NUGET_ORG_API_KEY }} -s https://api.nuget.org/v3/index.json
