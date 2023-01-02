@@ -2,13 +2,13 @@
 
 namespace Express.Recurrence
 {
-    public class DayReccurance : ReccurancePattern
+    public class DayReccurance : BasePattern
     {
         public Every Every { get; set; }
         public int Next { get; set; }
     }
 
-    public class WeeklyReccurance : ReccurancePattern
+    public class WeeklyReccurance : BasePattern
     {
         public int Next { get; set; }
         public bool Sunday { get; set; }
@@ -20,27 +20,27 @@ namespace Express.Recurrence
         public bool Saturday { get; set; }
     }
 
-    public class MonthlyReccurance : ReccurancePattern
+    public class MonthlyReccurance : BasePattern
     {
         public int Next { get; set; }
         public int DayOfMonth { get; set; }
         public CONSTRAIN Constrain { get; set; }
-        public LOGICALSTART LogicalStart { get; set; }
-        public LOGICALDAY LogicalDay { get; set; }
+        public SpecialDay LogicalStart { get; set; }
+        public Day LogicalDay { get; set; }
         public int AdjustDays { get; set; }
     }
 
-    public class YearlyReccurance : ReccurancePattern
+    public class YearlyReccurance : BasePattern
     {
         public int DayOfMonth { get; set; }
-        public MONTHS Month { get; set; }
+        public Month Month { get; set; }
         public CONSTRAIN Constrain { get; set; }
-        public LOGICALSTART LogicalStart { get; set; }
-        public LOGICALDAY LogicalDay { get; set; }
+        public SpecialDay LogicalStart { get; set; }
+        public Day LogicalDay { get; set; }
         public int AdjustDays { get; set; }
     }
 
-    public class ReccurancePattern
+    public class BasePattern
     {
         public DateTime StartDate { get; set; }
         public int MaxOccurance { get; set; }
@@ -59,7 +59,7 @@ namespace Express.Recurrence
         SpecificDay,
         Logical,
     }
-    public enum LOGICALSTART
+    public enum SpecialDay
     {
         First,
         Second,
@@ -67,7 +67,7 @@ namespace Express.Recurrence
         Fourth,
         Last
     }
-    public enum LOGICALDAY
+    public enum Day
     {
         Day, 
         Weekday, 
@@ -87,7 +87,7 @@ namespace Express.Recurrence
         WeekDay
     }
 
-    public enum MONTHS
+    public enum Month
     {
         Jan,
         Feb,
