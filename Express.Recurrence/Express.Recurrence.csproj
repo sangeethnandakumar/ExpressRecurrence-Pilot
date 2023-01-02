@@ -22,9 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="logo.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+	  <None Include="images\logo.png" Pack="true" PackagePath=""/>
   </ItemGroup>
 
 </Project>
