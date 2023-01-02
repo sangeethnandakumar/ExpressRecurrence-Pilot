@@ -6,3 +6,5 @@
 ### NuGet Deployment Will Trigger - Only When New Release With Tag with 'v.*' created
 
 CodeQuality & Coverage: https://sonarcloud.io/summary/overall?id=sangeethnandakumar_ExpressRecurrence-Pilot
+
+[![NuGet](https://img.shields.io/nuget/dt/Twileloop.ExpressRecurrence?label=NuGet%20Downloads&style=social)](https://www.nuget.org/packages/Twileloop.ExpressRecurrence/)
