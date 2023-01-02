@@ -22,9 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\Sangeeth Nandakumar\OneDrive\Desktop\logo.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
+    <None Update="logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
