@@ -1,3 +1,3 @@
 # ExpressRecurrence.Demo
 
-[![.NET](https://github.com/sangeethnandakumar/ExpressRecurrence-Pilot/actions/workflows/dotnet.yml/badge.svg)](https://github.com/sangeethnandakumar/ExpressRecurrence-Pilot/actions/workflows/dotnet.yml)
+[![BUILD STATUS](https://github.com/sangeethnandakumar/ExpressRecurrence-Pilot/actions/workflows/dotnet.yml/badge.svg)](https://github.com/sangeethnandakumar/ExpressRecurrence-Pilot/actions/workflows/dotnet.yml)
