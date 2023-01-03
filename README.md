@@ -22,6 +22,7 @@
   
   [![.NET](https://img.shields.io/github/actions/workflow/status/sangeethnandakumar/ExpressRecurrence-Pilot/sonar.yml?branch=master&label=SonarQube%20%28Code%20Quality%29&style=flat-square)](https://www.nuget.org/packages/Twileloop.ExpressRecurrence/)
   [![.NET](https://img.shields.io/nuget/dt/Twileloop.ExpressRecurrence?label=NuGet%20Downloads&style=flat-square)](https://www.nuget.org/packages/Twileloop.ExpressRecurrence/)
+  [![Documentation Status](https://readthedocs.org/projects/express-activedirectory/badge/?version=latest)](https://express-activedirectory.readthedocs.io/en/latest/?badge=latest)
   
 </div>
 
