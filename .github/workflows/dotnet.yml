@@ -1,6 +1,7 @@
-name: "Deploy to NuGet"
+name: "Deploy Package - NuGet.Org"
 
 on:
+  workflow_dispatch:
   push:
     tags:
     - 'v*'
