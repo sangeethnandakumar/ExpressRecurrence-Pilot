@@ -28,25 +28,30 @@
 > **Warning**
 Latest versions uses fluent API's, If you're using an older version <= v2.0.0 please upgrade to v3.x.x or higher 
 
+## Security & Maintanance
+* SonarScanner is configured on CI/CD workflow to enable continues security & maintanance scans and reporting
+* Reports are pushed to SonarCloud and is publicaly available
+* SonarCloud: [Click Here](https://sonarcloud.io/project/overview?id=sangeethnandakumar_ExpressRecurrence-Pilot). 
+
+[![.NET](https://img.shields.io/github/actions/workflow/status/sangeethnandakumar/ExpressRecurrence-Pilot/sonar.yml?branch=master&label=SonarQube%20%28Code%20Quality%29&style=flat-square)](https://www.nuget.org/packages/Twileloop.ExpressRecurrence/)
+
 ## Licensing
 * Fully free for personal/commertial projects without needing any commertial licenses.
-* If you're **happy**, Help me buy a coffee
+* Feeling happy? A small coffee would be a great way to support my work. Thank you for considering it!
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/sangeethnanda)
 
------
+## Documentation
+* RTD is configured on repo to enable continues document patching & deployment
+* Updated documentation is available since v3.0.0+ and higher
+* Full Documentation: [Click Here](https://expressrecurrence-pilot.readthedocs.io/). 
 
-## :package: Install Package
-[![.NET](https://img.shields.io/nuget/dt/Twileloop.ExpressRecurrence?label=NuGet%20Downloads&style=flat-square)](https://www.nuget.org/packages/Twileloop.ExpressRecurrence/)
+[![Documentation Status](https://readthedocs.org/projects/expressrecurrence-pilot/badge/?version=latest)](https://expressrecurrence-pilot.readthedocs.io/en/latest/?badge=latest)
 
-```powershell
-dotnet add package Twileloop.ExpressRecurrence
-```
+## Support
+* Please open an `Issue` in case if you find any bugs
+* Contact me at twileloop@outlook.com
 
-## Code Quality
-[![.NET](https://img.shields.io/github/actions/workflow/status/sangeethnandakumar/ExpressRecurrence-Pilot/sonar.yml?branch=master&label=SonarQube%20%28Code%20Quality%29&style=flat-square)](https://www.nuget.org/packages/Twileloop.ExpressRecurrence/)
-
-## :loudspeaker: Usage Documentation
-[![Documentation Status](https://readthedocs.org/projects/express-activedirectory/badge/?version=latest)](https://express-activedirectory.readthedocs.io/en/latest/?badge=latest)
-
-Documentation is updated and hosted at: https://expressrecurrence-pilot.readthedocs.io/
+## Contributions
+* Feel free to contribute to this open source project
+* Help make it better, Make the world better
