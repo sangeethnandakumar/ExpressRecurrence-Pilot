@@ -1,4 +1,4 @@
-name: SonarCloud
+name: Scan master - SonarCloud
 on:
   workflow_dispatch:
   push:
