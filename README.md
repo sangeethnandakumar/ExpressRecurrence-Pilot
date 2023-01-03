@@ -20,10 +20,6 @@
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
   
-  [![.NET](https://img.shields.io/github/actions/workflow/status/sangeethnandakumar/ExpressRecurrence-Pilot/sonar.yml?branch=master&label=SonarQube%20%28Code%20Quality%29&style=flat-square)](https://www.nuget.org/packages/Twileloop.ExpressRecurrence/)
-  [![.NET](https://img.shields.io/nuget/dt/Twileloop.ExpressRecurrence?label=NuGet%20Downloads&style=flat-square)](https://www.nuget.org/packages/Twileloop.ExpressRecurrence/)
-  [![Documentation Status](https://readthedocs.org/projects/express-activedirectory/badge/?version=latest)](https://express-activedirectory.readthedocs.io/en/latest/?badge=latest)
-  
 </div>
 
 > **Note**
@@ -41,10 +37,16 @@ Latest versions uses fluent API's, If you're using an older version <= v2.0.0 pl
 -----
 
 ## :package: Install Package
+[![.NET](https://img.shields.io/nuget/dt/Twileloop.ExpressRecurrence?label=NuGet%20Downloads&style=flat-square)](https://www.nuget.org/packages/Twileloop.ExpressRecurrence/)
 
 ```powershell
 dotnet add package Twileloop.ExpressRecurrence
 ```
 
-## :loudspeaker: Read Full Documentation
+## Code Quality
+[![.NET](https://img.shields.io/github/actions/workflow/status/sangeethnandakumar/ExpressRecurrence-Pilot/sonar.yml?branch=master&label=SonarQube%20%28Code%20Quality%29&style=flat-square)](https://www.nuget.org/packages/Twileloop.ExpressRecurrence/)
+
+## :loudspeaker: Usage Documentation
+[![Documentation Status](https://readthedocs.org/projects/express-activedirectory/badge/?version=latest)](https://express-activedirectory.readthedocs.io/en/latest/?badge=latest)
+
 Documentation is updated and hosted at: https://expressrecurrence-pilot.readthedocs.io/
