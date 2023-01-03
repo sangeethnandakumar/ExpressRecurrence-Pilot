@@ -45,3 +45,6 @@ Latest versions uses fluent API's, If you're using an older version <= v2.0.0 pl
 ```powershell
 dotnet add package Twileloop.ExpressRecurrence
 ```
+
+## :loudspeaker: Read Full Documentation
+Documentation is updated and hosted at: https://expressrecurrence-pilot.readthedocs.io/
